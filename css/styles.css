@@ -60,6 +60,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.25em;
+}
+
+.book-title,
+.book-author {
+  word-break: break-all;
 }
 
 .book-title {
