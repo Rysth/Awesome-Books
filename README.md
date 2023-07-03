@@ -29,11 +29,11 @@
 
 # 📖 Portfolio Project <a name="about-project"></a>
 
-**Valorant Conference Page** was built keeping in mind the best Cyphers Players in the world. It brings an opportunity to learn about the Character, Main Features, Game Mechanics, and Playstyles from top-tier people.
+**Awesome Books App** It's an application where we as users will Add or Remove books that we acknowledge as good to our personal library.
 
-Here you will learn more about our Conference which now has a lovely community around the world, especially, within Guayaquil-Ecuador and the City of Casablanca-Morocco.
+Here I'll go to show you practice my HTML, CSS & JavaScript skills in order to complete the project.
 
-Also, we as the company wanted to offer the best technologies to help you with your own learning process while seeing an incredible and good-looking website that can guide you to become a professional Cypher Valorant player.
+Also, we will know how to manipulate information but, more importantly, how to copy a design using a medium-wire frame.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,7 +45,6 @@ Also, we as the company wanted to offer the best technologies to help you with y
     <li><a href="https://www.w3schools.com/html/">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
     <li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
-    <li><a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Behance</a></li>
   </ul>
 </details>
 
@@ -56,7 +55,6 @@ Also, we as the company wanted to offer the best technologies to help you with y
 - **Great Design and Colors.**
 - **Good Practices within each File.**
 - **Excellent Content displayed.**
-- **Behance Design Guideline.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,8 +62,6 @@ Also, we as the company wanted to offer the best technologies to help you with y
 
 - **Implement a Database**
 - **Implement a CSS Preprocessor.**
-- **Implement a Contact Form**
-- **Implement a Video Preview**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +70,7 @@ Also, we as the company wanted to offer the best technologies to help you with y
 <div align="center">
   <h3><b>Design Preview</b></h3>
   <br/>
-  <img src="./resources/images/preview.png" alt="Design Preview Screenshot" style="object-fit:cover;"/>
+  <!-- <img src="./resources/images/preview.png" alt="Design Preview Screenshot" style="object-fit:cover;"/> -->
 </div>
 
 ### Take a Look
