@@ -54,14 +54,14 @@ Also, we will know how to manipulate information but, more importantly, how to c
 
 - **Great Design and Colors.**
 - **Good Practices within each File.**
-- **Excellent Content displayed.**
+- **Excellent use of Local Storage.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Future Features <a name="future-features"></a>
 
-- **Implement a Database**
 - **Implement a CSS Preprocessor.**
+- **Implement a Database**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +70,7 @@ Also, we will know how to manipulate information but, more importantly, how to c
 <div align="center">
   <h3><b>Design Preview</b></h3>
   <br/>
-  <!-- <img src="./resources/images/preview.png" alt="Design Preview Screenshot" style="object-fit:cover;"/> -->
+  <img src="./resources/images/preview.png" alt="Design Preview Screenshot" style="object-fit:cover;"/>
 </div>
 
 ### Take a Look
@@ -88,8 +88,8 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/Rysth/Portfolio-Project.git
-cd Conference-Page
+git clone https://github.com/Rysth/Awesome-Project.git
+cd Awesome-Project
 code . (To open VS Code Editor)
 ```
 
@@ -119,6 +119,7 @@ Use at the end '--fix' to help you out with any error.
 👤 **Rysth**
 
 - GitHub: [@rysth](https://github.com/Rysth)
+- Linkedin: [@johnpalacios](https://www.linkedin.com/in/john-palacios-rysth/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,9 +142,6 @@ as well.
 
 I would like to thank the Microverse Team for reviewing my code and making me a better
 professional.
-
-Also, I'm grateful to [Cindy Shin in Behance](https://www.behance.net/adagio07) to share with us her design.
-Thank you so much!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
