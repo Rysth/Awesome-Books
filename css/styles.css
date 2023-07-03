@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Float */
+
+.float-right {
+  float: right;
+}
+
+/* btns */
+
+.btn {
+  margin: 1em 0;
+  border: none;
+  padding: 0.75em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* Library */
+
+.library {
+  display: grid;
+  gap: 0.5em;
+  margin: 0 0 1em 0;
+}
+
+.book-cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-title {
+  font-size: 1.15rem;
+  margin: 0.5em 0;
+}
+
+.book-author {
+  font-style: italic;
+  margin: 0.25em 0;
+  font-size: 0.8rem;
+}
+
+/* Form */
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: grid;
+  margin: 1em 0;
+}
+
+.form-input {
+  padding: 0.5em;
+}

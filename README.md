@@ -27,7 +27,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Project <a name="about-project"></a>
+# 📖 Awesome Books App <a name="about-project"></a>
 
 **Awesome Books App** It's an application where we as users will Add or Remove books that we acknowledge as good to our personal library.
 
