@@ -1,5 +1,5 @@
 // Create a collection that keeps a list of books (hint: you can use an array of objects for that).
-let bookArray = [];
+let booksArray = [];
 
 // Create a function to add a new book to the collection, with title and author.
 class Book {
@@ -11,7 +11,8 @@ class Book {
 
 function addBook(title, author) {
   const book = new Book(title, author);
-  bookArray.push(book);
+  booksArray.push(book);
+  updateLocalStorage();
 }
 
 function showBook(library, book, index) {
@@ -32,7 +33,7 @@ function showBook(library, book, index) {
 function displayBooks() {
   const library = document.querySelector('#library');
   library.innerHTML = '';
-  bookArray.forEach((book, index) => {
+  booksArray.forEach((book, index) => {
     showBook(library, book, index);
   });
 }
@@ -54,6 +55,26 @@ form.addEventListener('submit', (event) => {
 // Create a function to remove a book from the collection (hint: you can use the array filter() method).
 
 function removeBook(index) {
-  bookArray.splice(index, 1);
+  booksArray.splice(index, 1);
   displayBooks();
+  updateLocalStorage();
 }
+
+function updateLocalStorage() {
+  localStorage.setItem('booksArray', JSON.stringify(booksArray));
+}
+
+function checkLocalStorage() {
+  const item = localStorage.getItem('booksArray');
+  console.log(item);
+  if (item !== null) {
+    const data = JSON.parse(item);
+    if (data.length <= 0) return localStorage.clear();
+    booksArray = data;
+    displayBooks();
+  }
+}
+
+window.onload = () => {
+  checkLocalStorage();
+};
