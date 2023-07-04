@@ -56,3 +56,4 @@ bookList.addEventListener('click', (event) => {
     Abooksa.displayBooks();
   }
 });
+Abooksa.displayBooks();
