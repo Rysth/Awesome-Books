@@ -1,9 +1,7 @@
-// Book Class
-class Book {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
+// Book Function
+function Book(title, author) {
+  this.title = title;
+  this.author = author;
 }
 
 // Books Collection
@@ -27,7 +25,7 @@ function showBooks(library) {
             <button class="btn btn-danger float-right" type="button" onclick="removeBook(${index})">Remove</button>
             <hr />
           </div>
-  `,
+  `
     )
     .join('');
 }
@@ -60,6 +58,8 @@ function addBook(title, author) {
 }
 
 // Function to remove a book from the collection.
+// Disable eslint-disable because the function it's not called within the JS but in the HTML.
+// Because my remove buttons have an onclick="remove(index)" where it's used there.
 /* eslint-disable no-unused-vars */
 function removeBook(index) {
   booksArray.splice(index, 1);
