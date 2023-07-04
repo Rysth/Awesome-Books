@@ -75,7 +75,7 @@ Also, we will know how to manipulate information but, more importantly, how to c
 
 ### Take a Look
 
-- [Live Demo Link](https://rysth.github.io/Conference-Page/)
+- [Live Demo Link](https://rysth.github.io/Awesome-Books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
