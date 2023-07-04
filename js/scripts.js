@@ -25,7 +25,7 @@ function showBooks(library) {
             <button class="btn btn-danger float-right" type="button" onclick="removeBook(${index})">Remove</button>
             <hr />
           </div>
-  `
+  `,
     )
     .join('');
 }
