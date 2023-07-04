@@ -73,10 +73,8 @@ const form = document.querySelector('#form');
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-
   const title = document.querySelector('#title').value;
   const author = document.querySelector('#author').value;
   addBook(title, author);
-
   form.reset();
 });
