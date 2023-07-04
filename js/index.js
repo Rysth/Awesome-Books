@@ -17,7 +17,7 @@ class Abooks {
           "${book.title.toUpperCase()}" by ${book.author}
           <button class="btn btn-remove box-shadow" data-index="${index}">Remove</button>
         </li>
-      `
+      `,
           )
           .join('');
       }
@@ -33,7 +33,7 @@ class Abooks {
     };
 
     this.removeBook = (index) => {
-      const [removedBook] = this.books.splice(index, 1);
+      this.books.splice(index, 1);
       localStorage.setItem('books', JSON.stringify(this.books));
       this.displayBooks();
     };
