@@ -5,13 +5,6 @@ class Abooks {
   constructor() {
     this.books = [];
 
-    this.local = () => {
-      if (localStorage.getItem('books')) {
-        const storedBooks = JSON.parse(localStorage.getItem('books'));
-        this.books = storedBooks;
-      }
-    };
-
     this.displayBooks = () => {
       if (localStorage.getItem('books')) {
         this.books = JSON.parse(localStorage.getItem('books'));
@@ -27,12 +20,13 @@ class Abooks {
     };
 
     this.submitbtn = () => {
-      const title = document.getElementById('bookTitle').value;
-      const author = document.getElementById('authorName').value;
+      const { value: title } = document.getElementById('bookTitle');
+      const { value: author } = document.getElementById('authorName');
       const newBook = { title, author };
       this.books.push(newBook);
       localStorage.setItem('books', JSON.stringify(this.books));
       form.reset();
+      this.displayBooks();
     };
 
     this.removeBook = (index) => {
@@ -49,7 +43,6 @@ Abooksa.displayBooks();
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   Abooksa.submitbtn();
-  Abooksa.displayBooks();
 });
 
 bookList.addEventListener('click', (event) => {
