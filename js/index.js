@@ -64,6 +64,11 @@ menuItems.forEach((item) => {
   item.addEventListener('click', () => {
     contentItems.forEach((content) => {
       const contentId = content.id;
+      if (itemID === contentId) {
+        content.classList.remove('hide');
+      } else {
+        content.classList.add('hide');
+      }
     });
   });
 });
