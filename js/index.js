@@ -17,7 +17,7 @@ class Abooks {
           "${book.title.toUpperCase()}" by ${book.author}
           <button class="btn btn-remove box-shadow" data-index="${index}">Remove</button>
         </li>
-      `,
+      `
           )
           .join('');
       }
@@ -53,4 +53,17 @@ bookList.addEventListener('click', ({ target }) => {
     const { index } = target.dataset;
     abooks.removeBook(index);
   }
+});
+
+/* Navigation Bar Links */
+const menuItems = Array.from(document.querySelectorAll('.menu-item'));
+const contentItems = Array.from(document.querySelectorAll('.content'));
+
+menuItems.forEach((item) => {
+  const itemID = item.id;
+  item.addEventListener('click', () => {
+    contentItems.forEach((content) => {
+      const contentId = content.id;
+    });
+  });
 });

@@ -7,9 +7,21 @@ button {
   font-family: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1500px;
   margin: 0 auto;
+}
+
+.container-sm {
+  max-width: 800px;
+}
+
+.padding-3 {
+  padding: 3em 0;
 }
 
 .border-dark {
@@ -22,6 +34,38 @@ button {
 
 .h1 {
   font: 700 40px 'Comic Neue', cursive;
+}
+
+.hide {
+  display: none;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Navigation Styles */
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  gap: 1em;
+  text-align: center;
+}
+
+.menu-item {
+  color: black;
 }
 
 .line {
@@ -80,4 +124,23 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-content {
+  padding: 1em;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    flex-direction: row;
+  }
+
+  .menu {
+    gap: 2em;
+    text-align: left;
+  }
+
+  .footer {
+    bottom: 0;
+  }
 }
