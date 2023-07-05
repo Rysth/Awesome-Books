@@ -54,3 +54,21 @@ bookList.addEventListener('click', ({ target }) => {
     abooks.removeBook(index);
   }
 });
+
+/* Navigation Bar Links */
+const menuItems = Array.from(document.querySelectorAll('.menu-item'));
+const contentItems = Array.from(document.querySelectorAll('.content'));
+
+menuItems.forEach((item) => {
+  const itemID = item.id;
+  item.addEventListener('click', () => {
+    contentItems.forEach((content) => {
+      const contentId = content.id;
+      if (contentId.includes(itemID)) {
+        content.classList.remove('hide');
+      } else {
+        content.classList.add('hide');
+      }
+    });
+  });
+});
