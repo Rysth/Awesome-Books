@@ -17,7 +17,7 @@ class Abooks {
           "${book.title.toUpperCase()}" by ${book.author}
           <button class="btn btn-remove box-shadow" data-index="${index}">Remove</button>
         </li>
-      `
+      `,
           )
           .join('');
       }
@@ -64,7 +64,7 @@ menuItems.forEach((item) => {
   item.addEventListener('click', () => {
     contentItems.forEach((content) => {
       const contentId = content.id;
-      if (itemID === contentId) {
+      if (contentId.includes(itemID)) {
         content.classList.remove('hide');
       } else {
         content.classList.add('hide');
